@@ -1,0 +1,45 @@
+.complete_loreum_ipsum {
+  width: 50%;
+}
+.form {
+  padding: 2em;
+  /* border: 1px solid blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* justify-content: space-evenly; */
+}
+
+.single_para {
+  margin-bottom: 2em;
+  /* border: 2px solid red; */
+  list-style: none;
+  font-size: 1.2em;
+}
+.generate_button {
+  background-color: aquamarine;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: 1em;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  border-radius: 10px;
+  border: none;
+}
+
+.input_number {
+  font-size: 1.3em;
+  padding: 0.2em;
+  width: 20%;
+}
+
+.para_label {
+  font-size: 1.2em;
+  color: black;
+  font-weight: 900;
+}
+
+.heading {
+  margin-bottom: 0.2em;
+  padding-top: 0.89em;
+}
