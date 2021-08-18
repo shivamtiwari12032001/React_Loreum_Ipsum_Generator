@@ -43,3 +43,47 @@
   margin-bottom: 0.2em;
   padding-top: 0.89em;
 }
+@media screen and (max-width: 800px) {
+  .complete_loreum_ipsum {
+    width: 80%;
+  }
+  .heading {
+    font-size: 1.2em;
+    border: 1px solid red;
+    padding: 0.3em;
+    margin-bottom: 1em;
+  }
+
+  .single_para {
+    font-size: 0.9em;
+  }
+
+  .generate_button {
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    margin-left: 1.2em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    border-radius: 5px;
+  }
+
+  .input_number {
+    font-size: 1.1em;
+    padding: 0.2em;
+    width: 20%;
+    border: 1px solid orange;
+  }
+
+  .para_label {
+    font-size: 1.1em;
+    color: black;
+    font-weight: 900;
+  }
+
+  .form {
+    padding: 0.2em;
+    margin-bottom: 1em;
+
+    /* justify-content: space-evenly; */
+  }
+}

@@ -14,7 +14,7 @@ const LoreumIpsum = (props) => {
 
   return (
     <div className={styles.complete_loreum_ipsum}>
-      <h1 className={styles.heading}>TIRED OF BORING LOREM IPSUM?</h1>
+      <h1 className={styles.heading}>Random Text Generator</h1>
       <form className={styles.form}>
         <label htmlFor="amount" className={styles.para_label}>
           Paragraph :
@@ -23,6 +23,7 @@ const LoreumIpsum = (props) => {
           type="number"
           onChange={(e) => setAmount(e.target.value)}
           className={styles.input_number}
+          value={amount}
         />
         <input
           type="submit"
